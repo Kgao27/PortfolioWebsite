@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Kgaogelo <span>Matseke</span>
+        </a>
+        <i class="bx bx-menu"id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Kgaogelo</span></h1>
+            <h3>
+                I'm a <span>Developer</span>
+            </h3>
+            <p>loves solving real-world problems through code.
+            I enjoy creating projects that combine logic, design, 
+            and great user experience.</p>
+
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="myphoto.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="myphoto.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Hi, I’m Kgaogelo, a creative and curious developer who loves building things that work — and work well.
+            I started coding out of curiosity, but it quickly became my passion. I enjoy developing websites and applications that are both functional and visually appealing.
+            I’m always learning new technologies and improving my skills to become a better problem solver and team contributor.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>I build interactive and responsive user interfaces using HTML, CSS, JavaScript, and React. I focus on creating websites that are visually appealing, easy to navigate, and optimized for a seamless user experience. 
+                    My projects include validating forms, building reusable components, and implementing dynamic features that enhance usability.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
+                    <p>I develop server-side applications and manage databases using PHP, Java, and MySQL. I have experience implementing CRUD functionality, handling data securely, and ensuring smooth communication between the server and frontend. 
+                    Projects include a POS system with real-time inventory management and a to-do list application with persistent database storage.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>Software Development & Problem Solving</h4>
+                    <p>I enjoy designing and coding complete software solutions from scratch, such as games and management systems, using Java and Android programming. 
+                    I focus on logical problem solving, writing clean, maintainable code, and testing applications to ensure quality and functionality. 
+                    My projects showcase my ability to handle both design and technical challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="MyWebsite.PNG" alt="">
+                <h3>Project 1</h3>
+                <p>A responsive website built to showcase handyman services, allowing users to view services, book appointments, and contact the business.
+                Technologies used are HTML, CSS, JavaScript, PHP, MySQL, React. 
+                The key features are interactive forms for appointments, data storage in MySQL, reusable components in React, and a focus on user experience and easy navigation.</p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="taskmanagement.PNG" alt="">
+                <h3>Project 2</h3>
+                <p> A task management system designed to track and manage tasks efficiently. Users can create, update, and delete tasks while keeping track of deadlines and priorities.
+                Technologies used are PHP, MySQL, HTML, CSS.
+                The key features are the real-time database interaction, task categorization, easy-to-read table layouts, and an emphasis on functionality and workflow management.</p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="ToDoList.PNG" alt="">
+                <h3>Project 3</h3>
+                <p>A simple and functional to-do list app that allows users to add, view, and mark tasks as completed.
+                Technologies used are PHP, MySQL, HTML, CSS.
+                The key features are the persistent task storage using MySQL with PDO, dynamic task display, and user-friendly forms for task management.</p>
+                <div class="btn">Review Project</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text"
+                    placeholder="Full Name">
+                    <input type="email"
+                    placeholder="email">
+                </div>
+                <div class="input-box">
+                    <input type="number"
+                    placeholder="Phone number">
+                    <input type="text"
+                    placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-box-2">
+                <textarea name="" id=""
+                placeholder="Your Message" cols="30"
+                rows="10"></textarea>
+                <input type="submit" value="Send Message"
+                class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FaQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                @ Kgaogelo Matseke | All Rights Reserved
+            </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
